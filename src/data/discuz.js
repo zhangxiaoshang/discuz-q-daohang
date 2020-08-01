@@ -10,7 +10,7 @@ const guanfang = [
 
 const xuexi = [
   {
-    url: 'http://kpl.youtho.cn/',
+    url: '',
     logo: '/assets/logos/youtho.png',
     title: '青鲸知事',
     summary: '公务员、考研、考证等专业性知识。',
@@ -31,6 +31,16 @@ const keji = [
     logo: '/assets/logos/imikeo.jpg',
     title: '米科社区',
     summary: '数码科技问答综合社区，教程、问答、资讯、评测、资源等',
+    hasMinapp: true,
+  },
+];
+
+const hangye = [
+  {
+    url: '',
+    logo: '/assets/logos/discuz.ico',
+    title: '餐饮互助行业',
+    summary: '餐饮人的互助社区',
     hasMinapp: true,
   },
 ];
@@ -127,6 +137,15 @@ const chuamei = [
   },
 ];
 
+const qita = [
+  {
+    url: 'https://q.qingxq.com/',
+    logo: '/assets/logos/qingxq.png',
+    title: '情绪圈',
+    summary: '',
+  },
+];
+
 const data = [
   {
     category: '官方',
@@ -141,6 +160,10 @@ const data = [
     list: keji,
   },
   {
+    category: '行业',
+    list: hangye,
+  },
+  {
     category: '次元',
     list: ciyuan,
   },
@@ -151,6 +174,10 @@ const data = [
   {
     category: '传媒',
     list: chuamei,
+  },
+  {
+    category: '其他',
+    list: qita,
   },
 ];
 

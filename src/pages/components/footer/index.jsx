@@ -4,7 +4,15 @@ import styles from './index.less';
 
 const footer = () => (
   <div className={styles.normal}>
-    微信:
+    <a
+      target="_blank"
+      href="https://jinshuju.net/f/Er3ig3"
+      className={styles.link}
+    >
+      申请收录
+    </a>
+
+    <span>联系方式: 微信&nbsp;</span>
     <CopyToClipboard
       text="Overview_as"
       onCopy={() => message.success('已复制微信号')}

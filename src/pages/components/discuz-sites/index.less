@@ -1,8 +1,39 @@
 .CardGrid {
+  position: relative;
   width: 50%;
   text-align: left;
   box-shadow: none;
-  padding-left: 24px;
+  // padding-left: 24px;
+  padding: 0;
+
+  // .icons {
+  //   position: absolute;
+  //   top: 32px;
+  //   display: flex;
+  //   flex-direction: column;
+  //   width: 32px;
+  //   left: -6px;
+
+  //  > span {
+  //    margin-bottom: 5px;
+  //  }
+  // }
+
+  .icons {
+    padding-left: 32px;
+    margin-bottom: 10px;
+    > span {
+      margin-left: 2px;
+    }
+    :global {
+      .anticon-ie {
+        color: #0e3dff;
+      }
+      .anticon-wechat {
+        color: rgb(0, 218, 116);
+      }
+    }
+  }
 
   :global {
     a {
@@ -13,7 +44,7 @@
     }
     h3 {
       display: flex;
-      justify-content: space-between;
+      // justify-content: space-between;
       margin-left: 32px;
       color: #3c3c3c;
       font-size: 14px;
@@ -24,6 +55,7 @@
       overflow: hidden;
 
       .ticket {
+        margin-left: auto;
         font-size: 12px;
         color: #8f8f8f;
       }

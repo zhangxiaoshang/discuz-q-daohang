@@ -5,6 +5,6 @@ export default defineConfig({
     type: 'none',
   },
   routes: [
-    { path: '/', title: 'Discuz Q 导航站', component: '@/pages/index.jsx' },
+    { path: '/', title: 'Discuz! Q 导航站', component: '@/pages/index.jsx' },
   ],
 });
