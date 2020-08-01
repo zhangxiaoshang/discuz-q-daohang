@@ -143,6 +143,14 @@ const qita = [
     logo: '/assets/logos/qingxq.png',
     title: '情绪圈',
     summary: '',
+    hasMinapp: true,
+  },
+  {
+    url: 'https://bbs.rmvsm.cn/',
+    logo: '/assets/logos/rmvsm.png',
+    title: '锐米黑卡君小站',
+    summary: '',
+    hasMinapp: true,
   },
 ];
 
