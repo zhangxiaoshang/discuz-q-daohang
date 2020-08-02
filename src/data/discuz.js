@@ -39,7 +39,7 @@ const hangye = [
   {
     url: '',
     logo: '/assets/logos/discuz.ico',
-    title: '餐饮互助行业',
+    title: '餐饮互助社',
     summary: '餐饮人的互助社区',
     hasMinapp: true,
   },
@@ -151,6 +151,12 @@ const qita = [
     title: '锐米黑卡君小站',
     summary: '',
     hasMinapp: true,
+  },
+  {
+    url: 'https://www.mcc.wang/',
+    logo: '/assets/logos/mcc.png',
+    title: 'Mcc',
+    summary: '',
   },
 ];
 
