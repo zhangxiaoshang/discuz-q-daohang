@@ -91,6 +91,13 @@ const bentu = [
     title: '拉呱',
     summary: '拉呱',
   },
+  {
+    url: '',
+    logo: '/assets/logos/lijianxin.jpeg',
+    title: '风光南阳',
+    summary:
+      '全方位展示美丽南阳的无限风光，弘扬南阳本土文化，传承古城文明精神！',
+  },
 ];
 
 const ciyuan = [
@@ -154,7 +161,7 @@ const qita = [
   },
   {
     url: 'https://www.mcc.wang/',
-    logo: '/assets/logos/mcc.png',
+    logo: '/assets/logos/mcc.jpg',
     title: 'Mcc',
     summary: '',
   },
